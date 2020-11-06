@@ -8,7 +8,7 @@ def key_for_min_value(name_hash)
     if value < min_num
       min_num = value
       
-    else
+    elsif 
       nil
     end
       
