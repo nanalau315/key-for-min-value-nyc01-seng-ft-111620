@@ -12,7 +12,7 @@ def key_for_min_value(name_hash)
     else
       return nil
     end
-    return name
+    puts name
   end
   
   
