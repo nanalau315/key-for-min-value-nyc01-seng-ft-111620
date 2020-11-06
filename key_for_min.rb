@@ -8,8 +8,8 @@ def key_for_min_value(name_hash)
     if value < min_num
       min_num = value
       
-    elsif name_hash == {}
-      return nil
+      puts key
+
     end
       
   end
