@@ -9,6 +9,7 @@ def key_for_min_value(name_hash)
       min_num = num
     end
     end
+    
   name_hash.select do |name, num|
     if name_hash[name] == min_num
       return name
