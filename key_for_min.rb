@@ -8,7 +8,9 @@ def key_for_min_value(name_hash)
     if num < min_num
       min_num = num
     end
-    puts name
+    if name_hash[name] == min_num
+      puts name
+    end
     
   end
   
